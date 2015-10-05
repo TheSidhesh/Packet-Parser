@@ -1,0 +1,47 @@
+		   NETWORK PACKET PARSER 
+		------------------------------
+
+What is it ?
+------------
+
+This is a parser which parses a pcap file(tcp/arp/http ) and displays the content
+in a proper readable format.
+
+Usage(On Linux) -
+----------------
+
+Compile the code using lpcap.
+
+Input to the program is the pcap file name passed as a command line argument.
+
+	Usage - gcc PacketParser.c <filename.c> -lpcap
+		./a.out <filename.pcap>
+			
+	Eg    - gcc PacketParser.c -lpcap
+		./a.out tcp-ecn-sample.pcap
+
+A menu is displayed from which the user can choose the following 3 options:
+	1) Full Summary
+	2) Selected Packet Summary
+	3) Exit
+
+For Selected Packet Summary, the desired packet number is asked for. 
+			
+
+Implementation -
+----------------
+
+Language Used - C
+
+The code is divided into 2 modules:
+
+1) Parsing the ethernet header
+   ----Using the structures declared initially, the ethernet header is parsed and Destination Addr, Source Addr and type are parsed and displayed.
+
+2) Displaying th details of (TCP/ARP) headers with data dump
+   ----Based on the ether type, the IP and TCP OR the ARP headers are parsed and details like Src IP, checksum, header lengths, hardware type etc are displayed.
+
+NOTE:
+In the data dump, the headers are seperately displayed in hex and the data payload is displayed in readable format.
+
+

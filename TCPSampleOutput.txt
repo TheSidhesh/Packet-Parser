@@ -1,0 +1,284 @@
+--Network Packet Parser--
+
+Press 1 for the Full Summary
+Press 2 for Selected Packet Summary
+Press 3 to exit
+Choice -- > 2
+
+Enter the packet number: 56
+*******************************************************
+
+		--PACKET INFO--
+
+Packet	# 56
+Packet size	: 590 bytes
+Epoch Time	: 1303496636:901845 seconds | Fri Apr 22 23:53:56 2011
+
+		--ETHERNET HEADER INFO--
+
+Source MAC Address	: C0:01:14:7C:00:01:
+Destination MAC Address	: C0:02:12:68:00:00:
+Frame Type		: IP
+
+		--IP HEADER INFO--
+
+Source IP	: 1.1.12.1
+Destination IP	: 1.1.23.3 
+Header Length	: 276 Bytes
+Type Of Service	:(3) Flash
+Identification	: 418
+TTL		: 254
+Protocol	: TCP (6)
+Checksum	: 37901
+
+		--TCP HEADER INFO--
+
+Source Port	: 80
+Destination Port: 46557 
+SEQ Number	: 2798161286
+ACK Number	: 179265776 
+Header Length	: 20 Bytes
+Window		: 3967
+Checksum	: 3934
+
+		--DUMP--
+
+--IP HEADER--
+ 45 03 02 40 01 a2 00 00 fe 06 94 0d 01 01 0c 01
+ 01 01 17 03
+--TCP HEADER--
+ 00 50 b5 dd a6 c8 8d 86 0a af 60 f0 50 10 0f 7f
+ 0f 5e 00 00
+--DATA PAYLOAD--
+    t  x  _  o  n  e  _  c  o  l  _  e  r  r  = 
+       0     .  t  x  _  e  x  c  _  c  o  l  l 
+ i  s  i  o  n  _  e  r  r  =        0     t  x 
+ _  l  a  t  e  _  c  o  l  l  i  s  i  o  n  _ 
+ e  r  r  =        0     .  t  x  _  u  n  d  e 
+ r  r  u  n  _  e  r  r  =        0     t  x  _ 
+ e  r  r  o  r  _  i  n  t  r  =        0     . 
+ r  x  _  s  o  f  t  _  o  v  e  r  f  l  o  w 
+ _  e  r  r  =        0        r  x  _  o  v  e 
+ r  f  l  o  w  _  e  r  r  =     0     .  .  I 
+ n  t  e  r  f  a  c  e     F  a  s  t  E  t  h 
+ e  r  n  e  t  0  /  1  .  H  a  r  d  w  a  r 
+ e     i  s     G  T  9  6  K     F  E     A  D 
+ D  R  :     6  5  1  5  A  4  9  0  ,     F  A 
+ S  T  S  E  N  D  :     6  0  6  2  4  9  8  0 
+ ,     M  C  I  _  I  N  D  E  X  :     0  .  D 
+ I  S  T     R  O  U  T  E     E  N  A  B  L  E 
+ D  :     0  R  o  u  t  e     C  a  c  h  e    
+ F  l  a  g  :     1  1  .  G  P  I  O     2    
+ C  O  N  F  =     0     G  P  I  O     2     I 
+ O  =     0        C  I  U     a  r  b  i  t    
+ =     8  0  0  0  0  0  0  0     .     P  H  Y 
+    a  d  d     r  e  g  i  s  t  e  r     =    
+ 0  x  0        P  H  Y     d  a  t  a     r  e 
+ g  i  s  t  e  r     =     0  x  8  0  0  0  0 
+ 0  0     .     P  o  r  t     C  o  n  f     R 
+ e  g  =     0  x  0     D  I  S  A  B  L  E    
+ H  T  8  K     H  M  O  D  0     .     P  o  r 
+ t     C  o  n  f     E  x     R  e  g  =     0 
+ x  4  C  D  0  0     .  T  X  1  :  1     R  X 
+ P  R  I  =  D  E  (  0  0  )     ~  F  L  C  N 
+ T  L     ~  F  L  N  K  P     M  F  L  6  4  K 
+ B     F  E     .  P  o  r  t     C  o  m     R 
+ e  g  =     0  x  0  . 
+*******************************************************
+
+--Network Packet Parser--
+
+Press 1 for the Full Summary
+Press 2 for Selected Packet Summary
+Press 3 to exit
+Choice -- > 1
+
+..After 475 Packets..
+
+*******************************************************
+
+		--PACKET INFO--
+
+Packet	# 476
+Packet size	: 60 bytes
+Epoch Time	: 1303496723:281845 seconds | Fri Apr 22 23:55:23 2011
+
+		--ETHERNET HEADER INFO--
+
+Source MAC Address	: C0:02:12:68:00:00:
+Destination MAC Address	: C0:01:14:7C:00:01:
+Frame Type		: IP
+
+		--IP HEADER INFO--
+
+Source IP	: 1.1.23.3
+Destination IP	: 1.1.12.1 
+Header Length	: 276 Bytes
+Type Of Service	:(0) Routine
+Identification	: 30583
+TTL		: 255
+Protocol	: TCP (6)
+Checksum	: 8019
+
+		--TCP HEADER INFO--
+
+Source Port	: 46557
+Destination Port: 80 
+SEQ Number	: 179265776
+ACK Number	: 2798235618 
+Header Length	: 20 Bytes
+Window		: 3592
+Checksum	: 1038
+
+		--DUMP--
+
+--IP HEADER--
+ 45 00 00 28 77 77 00 00 ff 06 1f 53 01 01 17 03
+ 01 01 0c 01
+--TCP HEADER--
+ b5 dd 00 50 0a af 60 f0 a6 c9 af e2 50 50 0e 08
+ 04 0e 00 00
+--DATA PAYLOAD--
+ .  .  .  .  .  . 
+
+*******************************************************
+
+		--PACKET INFO--
+
+Packet	# 477
+Packet size	: 60 bytes
+Epoch Time	: 1303496723:314845 seconds | Fri Apr 22 23:55:23 2011
+
+		--ETHERNET HEADER INFO--
+
+Source MAC Address	: C0:02:12:68:00:00:
+Destination MAC Address	: C0:01:14:7C:00:01:
+Frame Type		: IP
+
+		--IP HEADER INFO--
+
+Source IP	: 1.1.23.3
+Destination IP	: 1.1.12.1 
+Header Length	: 276 Bytes
+Type Of Service	:(0) Routine
+Identification	: 30584
+TTL		: 255
+Protocol	: TCP (6)
+Checksum	: 8018
+
+		--TCP HEADER INFO--
+
+Source Port	: 46557
+Destination Port: 80 
+SEQ Number	: 179265776
+ACK Number	: 2798235618 
+Header Length	: 20 Bytes
+Window		: 3454
+Checksum	: 1176
+
+		--DUMP--
+
+--IP HEADER--
+ 45 00 00 28 77 78 00 00 ff 06 1f 52 01 01 17 03
+ 01 01 0c 01
+--TCP HEADER--
+ b5 dd 00 50 0a af 60 f0 a6 c9 af e2 50 50 0d 7e
+ 04 98 00 00
+--DATA PAYLOAD--
+ .  .  .  .  .  . 
+
+*******************************************************
+
+		--PACKET INFO--
+
+Packet	# 478
+Packet size	: 60 bytes
+Epoch Time	: 1303496723:341845 seconds | Fri Apr 22 23:55:23 2011
+
+		--ETHERNET HEADER INFO--
+
+Source MAC Address	: C0:02:12:68:00:00:
+Destination MAC Address	: C0:01:14:7C:00:01:
+Frame Type		: IP
+
+		--IP HEADER INFO--
+
+Source IP	: 1.1.23.3
+Destination IP	: 1.1.12.1 
+Header Length	: 276 Bytes
+Type Of Service	:(0) Routine
+Identification	: 30585
+TTL		: 255
+Protocol	: TCP (6)
+Checksum	: 8017
+
+		--TCP HEADER INFO--
+
+Source Port	: 46557
+Destination Port: 80 
+SEQ Number	: 179265776
+ACK Number	: 2798235618 
+Header Length	: 20 Bytes
+Window		: 3454
+Checksum	: 1167
+
+		--DUMP--
+
+--IP HEADER--
+ 45 00 00 28 77 79 00 00 ff 06 1f 51 01 01 17 03
+ 01 01 0c 01
+--TCP HEADER--
+ b5 dd 00 50 0a af 60 f0 a6 c9 af e2 50 59 0d 7e
+ 04 8f 00 00
+--DATA PAYLOAD--
+ .  .  .  .  .  . 
+
+*******************************************************
+
+		--PACKET INFO--
+
+Packet	# 479
+Packet size	: 54 bytes
+Epoch Time	: 1303496723:923845 seconds | Fri Apr 22 23:55:23 2011
+
+		--ETHERNET HEADER INFO--
+
+Source MAC Address	: C0:01:14:7C:00:01:
+Destination MAC Address	: C0:02:12:68:00:00:
+Frame Type		: IP
+
+		--IP HEADER INFO--
+
+Source IP	: 1.1.12.1
+Destination IP	: 1.1.23.3 
+Header Length	: 276 Bytes
+Type Of Service	:(0) Routine
+Identification	: 565
+TTL		: 254
+Protocol	: TCP (6)
+Checksum	: 38293
+
+		--TCP HEADER INFO--
+
+Source Port	: 80
+Destination Port: 46557 
+SEQ Number	: 2798235618
+ACK Number	: 179265777 
+Header Length	: 20 Bytes
+Window		: 3967
+Checksum	: 726
+
+		--DUMP--
+
+--IP HEADER--
+ 45 00 00 28 02 35 00 00 fe 06 95 95 01 01 0c 01
+ 01 01 17 03
+--TCP HEADER--
+ 00 50 b5 dd a6 c9 af e2 0a af 60 f1 50 10 0f 7f
+ 02 d6 00 00
+--DATA PAYLOAD--
+
+
+*******************************************************
+
+

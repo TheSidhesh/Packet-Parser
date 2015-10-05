@@ -1,0 +1,250 @@
+--Network Packet Parser--
+
+Press 1 for the Full Summary
+Press 2 for Selected Packet Summary
+Press 3 to exit
+Choice -- > 2
+
+Enter the packet number: 478
+
+
+*******************************************************
+
+		--PACKET INFO--
+
+Packet	# 478
+Packet size	: 1514 bytes
+Epoch Time	: 1100903365:267341 seconds | Sat Nov 20 03:59:25 2004
+
+		--ETHERNET HEADER INFO--
+
+Source MAC Address	: 00:C0:DF:20:6C:DF:
+Destination MAC Address	: 00:04:E2:22:5A:03:
+Frame Type		: IP
+
+		--IP HEADER INFO--
+
+Source IP	: 10.1.1.1
+Destination IP	: 10.1.1.101 
+Header Length	: 276 Bytes
+Type Of Service	:(0) Routine
+Identification	: 25031
+TTL		: 64
+Protocol	: TCP (6)
+Checksum	: 48365
+
+		--TCP HEADER INFO--
+
+Source Port	: 80
+Destination Port: 3200 
+SEQ Number	: 937827629
+ACK Number	: 886164448 
+Header Length	: 20 Bytes
+Window		: 7007
+Checksum	: 39429
+
+		--DUMP--
+
+--IP HEADER--
+ 45 00 05 dc 61 c7 40 00 40 06 bc ed 0a 01 01 01
+ 0a 01 01 65
+--TCP HEADER--
+ 00 50 0c 80 37 e6 1d 2d 34 d1 cb e0 50 10 1b 5f
+ 9a 05 00 00
+--DATA PAYLOAD--
+ 8  .  .  .  A  .  .  1  .  Q  .  .  R  "  ~  . 
+ .  .  .  &  U  .  .  y  8  .  F  .  .  .  .  X 
+ .  .  .  .  .     .  .  ~  +  o  .  *  .  t  c 
+ .  m  W  /  .  B  .  .  .  .  <  .  .  .  .  . 
+ .  .  .  7  A  .  .  *  .  L  K  .  .  .  .  7 
+ .  .  L  .  .  x  .  .  .  8  .  .  .  .  .  . 
+ .  .  .  j  .  .  .  .  .  Q  L  .  .  .  .  . 
+ .  .  .     0  "  .  T  d  ,  .  .  n  q  .  u 
+ .  .  .  .  <  .  .  O  .  .  .  .  .  .  h  s 
+ .  .  "  .  .  .  .  .  .  .  .  J  .  .  h  . 
+ .  .  .  .  .  .  D  E  .  .  .  .  [  Q  .  C 
+ .  >  .  .  .  S  .  .  P  .  V  .  .  $  .  . 
+ .  .  .  )  .  E  .  .  .  \  .     |  .  .  \ 
+ S  .  .  .  .  g  .  .  X  .  .  .  .  ?  .  U 
+ \  .  s  .  .  .  .  .  V  .  .  .  .  j  .  . 
+ v  x  .  ?  z  .  .  ;  o  .  .  .  r  (  X  . 
+ d  ;  M  )  .  .  R  1  H  .  %  .  .  .  .  . 
+ 8  .  .  ~  .  1  .  J  ?  .  _  .  .  .  X  . 
+ .  .  G  .  .  .  .  n  .  Y  .  .  .  .  B  . 
+ H  .  .  }  .  .  .  .  @  .  .  .  \  .  .  . 
+ Q  .  .  .  .  .  .  .  .  P  .  .  .  T  .  & 
+ 7  .  Z  _  .  .  .  .  E  .  &  .  .  5  .  . 
+ `  .  .  .  (  .  .  .  .  .  o  e  .  .  .  . 
+ 9  .  .  .  .  .  .  .  .  g  .  .  .  t  )  . 
+ .  .  .  .  k  .  .  .  ^  |  .  ~  .  .  .  . 
+ .  9  ?  .  H  !  n  .  9  .  .  .  .  .  .  . 
+ Y  .  0  `  .  .  .  .  .  .  [  (  .  .  .  . 
+ .  .  :  `  .  .  .  .  V  .  .  .  .  H  .  . 
+ Y  .  .  ,  .  U  .  .  e  .  k  .  .  .  .  . 
+ B  .  .  .  .  .  .  .  .  .  9  F  .  .  .  . 
+ .  .  n  .  .  .  .  T  .  v  .  .  .  .  .  8 
+ .  j  .  k  R  .  M  .  L  .  Z  .  !  .  9  . 
+ .  ;  .  .  .  m  .  .  m  .  Y  .  e  .  .  " 
+ I  #  a  `  U  .  .  .  R  .  M  .  .  .  .  K 
+ .  .  .  .  .  .  G  .  i  .  =  .  .  .  )  . 
+ .  .  -  .  ~  .  .  }  .  b  .  @  !  .  '  . 
+ [  .  .  d  .  .  .  .  .  2  +  *  .  -  .  i 
+ q  p  .  9  V  P  .  .  T  .  k  .  v  .  .  . 
+ 1  .  $  .  .  .  .  .  .  .  S  b  .  ?  .  . 
+ .  .  U  .  .  @  m  s  .  F  ?  #  .  .  .  . 
+ .  x  .  .  .  .  .  .  .  .  n  .  r  d  v  > 
+ .  .  )  t  .  2  J  .  .  .  \  U  .  .  K  . 
+ .  .  .  u  {  .  A  .  r  j  .  .  }  w  l  . 
+ <  .  T  .  s  .  .  N  .  .  ]  .  b  .  .  . 
+ .  .  .  .  .  3  l  .  M  .  .  .  .  .  .  . 
+ %  .  .  .  g  =  K  f  .  .  .  .  &  .  P  i 
+ .  .  .  .  .  .  .  P  .  .  v  l  N  y  .  . 
+ .  A  .  .  .  .  .  .  .  .  .  .  U  .  w  . 
+ 7  .  .  "  7  .  m  .  .  ,  .  .  .  .  .  . 
+ A  .  n  .  .  .  .  l  .  .  .  .  .  .  .  . 
+ .  L  ,  .  .  h  .  .  ?  .  .  z  .  .  .  . 
+ ?  C  D  .  .  l  .  .  .  #  #  J  .  r  j  R 
+ ]  .  .  #  .  .  g  .  .  m  N  m  .  ?  .  . 
+ J  .  .  .  |  .  .  .  ,  .  \  .  g  .  t  . 
+ .  .  .  l  S  4  Q  I  .  2  4  .  .  .  .  . 
+ .  .  +  .  a  .  Z  .  w  .  .  U  .  -  .  . 
+ .  .  .  1  .  {  .  <  .  .  .  .  .  .  .  . 
+ .  .  .  .  :  .  .  L  `  e  .  .  .  .  .  $ 
+ .  .  %  H  .  .  q  .  .  -     .  .  .  .  J 
+ 9  .  `  .  \  9  $  .  4  .  .  .  .  .  .  B 
+ S  .  .  .  .  @  .  .  .  .  .  .  .  I  Y  Y 
+ @  .  .  @  .  C  .  .  .  .  n  .  M  .  F  . 
+ Y  I  I  .  .  q  .  .  a  .  .  .  .  =  .  X 
+ .  ]  !  .  .  .  B  W  .  B  1  P  /  .  T  . 
+ B  .  .  .  z  .  T  d  .  S  .  .  .  .  "  . 
+ {  .  *  .  l  .  .  o  H  .  M  S  '  .  .  . 
+ .  ,  .  .  .  .  E  .  X  .  M  .  .  .  .  ~ 
+ .  .  .  .  [  .  l  $  e  .  .  .  H  .  \  . 
+ .  |  .  0  .  ,  .  .  x  .  ?  J  (  ^  @  . 
+ .  .  .  .  .  .  .  S  .  Y  .  l  1  .  f  " 
+ ?  .  N  /  .  l  .  o  ,  .  .  .  s  .  .  R 
+ .  b  .  .  .  .  .  .  h  .  |  %  .  .  F  N 
+ {  )  .  .  .  `  .  *  G  .  {  8  .  K  h  . 
+ Q  f  .  .  .  .  :  .  .  .  2  .  .  .  .  - 
+ .  .  .  .  .  .  .  n  .  .  .  V  .  .  .  J 
+ U  .  L  .  .  .  .  =  .  7  p  .  .  .  .  . 
+ c  .  *  i  {  f  .  .  #  F  |  .  .  .  -  . 
+ 7  )  .  `  O  .  \  ~  .  .  .  .  .  .  [  H 
+ O  .  5  9  .  .  o  .  .  .  =  {  .  J  K  . 
+ .  9  z  V  U  .  .  .  .  .  .  .  .  C  1  . 
+ 1  .  j  .  [  4  a  .  y  .  .  .  .  .  .  . 
+ .  .  k  .  .  .  .  Y  .  .  #  .  .  =  v  . 
+ .  .  .  .  D  .  k  .  E  F  .  .  .  .  O  . 
+ W  ?  .  .  /  a  .  ^  .  .  >  .  @  .  R  i 
+ .  .  .  k  .  .  .  1  .  .  K  .  g  V  =  . 
+ .  N  .  .  .  i  .  .  Q  .  z  S  .  P  .  b 
+ N  N  .  .  .  .  .  .  R  .  :  w  .  :  .  b 
+ .  X  .  V  x  .  @  >  )  .  `  .  .  4  .  . 
+ .  .  Y  .  b  .  >  .  (  .  .  [  .  .  1  . 
+ .  .  .  .  D  .  .  .  S  1  .  .  L  H  .  . 
+ b  .  1  .  .  5  k  .  .  .  .  1  .  .  p  . 
+ V  .  e  . 
+
+*******************************************************
+
+--Network Packet Parser--
+
+Press 1 for the Full Summary
+Press 2 for Selected Packet Summary
+Press 3 to exit
+Choice -- > 1
+
+..After 481 Packets..
+
+*******************************************************
+
+		--PACKET INFO--
+
+Packet	# 482
+Packet size	: 54 bytes
+Epoch Time	: 1100903365:542161 seconds | Sat Nov 20 03:59:25 2004
+
+		--ETHERNET HEADER INFO--
+
+Source MAC Address	: 00:04:E2:22:5A:03:
+Destination MAC Address	: 00:C0:DF:20:6C:DF:
+Frame Type		: IP
+
+		--IP HEADER INFO--
+
+Source IP	: 10.1.1.101
+Destination IP	: 10.1.1.1 
+Header Length	: 276 Bytes
+Type Of Service	:(0) Routine
+Identification	: 46131
+TTL		: 128
+Protocol	: TCP (6)
+Checksum	: 12341
+
+		--TCP HEADER INFO--
+
+Source Port	: 3200
+Destination Port: 80 
+SEQ Number	: 886164448
+ACK Number	: 937830481 
+Header Length	: 20 Bytes
+Window		: 65535
+Checksum	: 11187
+
+		--DUMP--
+
+--IP HEADER--
+ 45 00 00 28 b4 33 40 00 80 06 30 35 0a 01 01 65
+ 0a 01 01 01
+--TCP HEADER--
+ 0c 80 00 50 34 d1 cb e0 37 e6 28 51 50 11 ff ff
+ 2b b3 00 00
+--DATA PAYLOAD--
+
+*******************************************************
+
+		--PACKET INFO--
+
+Packet	# 483
+Packet size	: 60 bytes
+Epoch Time	: 1100903365:542586 seconds | Sat Nov 20 03:59:25 2004
+
+		--ETHERNET HEADER INFO--
+
+Source MAC Address	: 00:C0:DF:20:6C:DF:
+Destination MAC Address	: 00:04:E2:22:5A:03:
+Frame Type		: IP
+
+		--IP HEADER INFO--
+
+Source IP	: 10.1.1.1
+Destination IP	: 10.1.1.101 
+Header Length	: 276 Bytes
+Type Of Service	:(0) Routine
+Identification	: 25033
+TTL		: 64
+Protocol	: TCP (6)
+Checksum	: 49823
+
+		--TCP HEADER INFO--
+
+Source Port	: 80
+Destination Port: 3200 
+SEQ Number	: 937830481
+ACK Number	: 886164449 
+Header Length	: 20 Bytes
+Window		: 7007
+Checksum	: 4180
+
+		--DUMP--
+
+--IP HEADER--
+ 45 00 00 28 61 c9 40 00 40 06 c2 9f 0a 01 01 01
+ 0a 01 01 65
+--TCP HEADER--
+ 00 50 0c 80 37 e6 28 51 34 d1 cb e1 50 10 1b 5f
+ 10 54 00 00
+--DATA PAYLOAD--
+ 8  .  .  .  A  . 
+
+

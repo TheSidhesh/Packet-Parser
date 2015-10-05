@@ -1,0 +1,197 @@
+--Network Packet Parser--
+
+Press 1 for the Full Summary
+Press 2 for Selected Packet Summary
+Press 3 to exit
+Choice -- > 2    
+
+Enter the packet number: 1
+*******************************************************
+
+		--PACKET INFO--
+
+Packet	# 1
+Packet size	: 60 bytes
+Epoch Time	: 1096984865:275344 seconds | Tue Oct  5 19:31:05 2004
+
+		--ETHERNET HEADER INFO--
+
+Source MAC Address	: 00:07:0D:AF:F4:54:
+Destination MAC Address	: FF:FF:FF:FF:FF:FF:  (Broadcast)
+Frame Type		: ARP
+
+		--ARP HEADER INFO--
+
+Hardware type				: Ethernet (0001)
+Protocol type				: IPv4 (0800)
+Link Layer Hardware Address Length	: 6 Bytes
+Network Protocol Address Length		: 4 Bytes
+Operation				: ARP Request
+Sender Hardware Address			: 00:07:0D:AF:F4:54:
+Target Hardware Address			: 00:00:00:00:00:00:
+Sender Network Protocol Address		: 24.166.172.1.
+Target Network Protocol Address		: 24.166.173.159.
+
+		--DUMP--
+
+--ARP HEADER--
+ 00 01 08 00 06 04 00 01 00 07 0d af f4 54 18 a6
+ ac 01 00 00 00 00 00 00 18 a6 ad 9f
+--DATA PAYLOAD--
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
+ .  . 
+*******************************************************
+
+
+--Network Packet Parser--
+
+Press 1 for the Full Summary
+Press 2 for Selected Packet Summary
+Press 3 to exit
+Choice -- > 1
+
+.....After 618 Packets.....
+
+*******************************************************
+
+		--PACKET INFO--
+
+Packet	# 619
+Packet size	: 60 bytes
+Epoch Time	: 1096984894:170842 seconds | Tue Oct  5 19:31:34 2004
+
+		--ETHERNET HEADER INFO--
+
+Source MAC Address	: 00:07:0D:AF:F4:54:
+Destination MAC Address	: FF:FF:FF:FF:FF:FF:  (Broadcast)
+Frame Type		: ARP
+
+		--ARP HEADER INFO--
+
+Hardware type				: Ethernet (0001)
+Protocol type				: IPv4 (0800)
+Link Layer Hardware Address Length	: 6 Bytes
+Network Protocol Address Length		: 4 Bytes
+Operation				: ARP Request
+Sender Hardware Address			: 00:07:0D:AF:F4:54:
+Target Hardware Address			: 00:00:00:00:00:00:
+Sender Network Protocol Address		: 69.76.216.1.
+Target Network Protocol Address		: 69.76.222.16.
+
+		--DUMP--
+
+--ARP HEADER--
+ 00 01 08 00 06 04 00 01 00 07 0d af f4 54 45 4c
+ d8 01 00 00 00 00 00 00 45 4c de 10
+--DATA PAYLOAD--
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
+ .  . 
+
+*******************************************************
+
+		--PACKET INFO--
+
+Packet	# 620
+Packet size	: 60 bytes
+Epoch Time	: 1096984894:181872 seconds | Tue Oct  5 19:31:34 2004
+
+		--ETHERNET HEADER INFO--
+
+Source MAC Address	: 00:07:0D:AF:F4:54:
+Destination MAC Address	: FF:FF:FF:FF:FF:FF:  (Broadcast)
+Frame Type		: ARP
+
+		--ARP HEADER INFO--
+
+Hardware type				: Ethernet (0001)
+Protocol type				: IPv4 (0800)
+Link Layer Hardware Address Length	: 6 Bytes
+Network Protocol Address Length		: 4 Bytes
+Operation				: ARP Request
+Sender Hardware Address			: 00:07:0D:AF:F4:54:
+Target Hardware Address			: 00:00:00:00:00:00:
+Sender Network Protocol Address		: 24.166.172.1.
+Target Network Protocol Address		: 24.166.175.220.
+
+		--DUMP--
+
+--ARP HEADER--
+ 00 01 08 00 06 04 00 01 00 07 0d af f4 54 18 a6
+ ac 01 00 00 00 00 00 00 18 a6 af dc
+--DATA PAYLOAD--
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
+ .  . 
+
+*******************************************************
+
+		--PACKET INFO--
+
+Packet	# 621
+Packet size	: 60 bytes
+Epoch Time	: 1096984894:236465 seconds | Tue Oct  5 19:31:34 2004
+
+		--ETHERNET HEADER INFO--
+
+Source MAC Address	: 00:07:0D:AF:F4:54:
+Destination MAC Address	: FF:FF:FF:FF:FF:FF:  (Broadcast)
+Frame Type		: ARP
+
+		--ARP HEADER INFO--
+
+Hardware type				: Ethernet (0001)
+Protocol type				: IPv4 (0800)
+Link Layer Hardware Address Length	: 6 Bytes
+Network Protocol Address Length		: 4 Bytes
+Operation				: ARP Request
+Sender Hardware Address			: 00:07:0D:AF:F4:54:
+Target Hardware Address			: 00:00:00:00:00:00:
+Sender Network Protocol Address		: 69.81.17.1.
+Target Network Protocol Address		: 69.81.17.7.
+
+		--DUMP--
+
+--ARP HEADER--
+ 00 01 08 00 06 04 00 01 00 07 0d af f4 54 45 51
+ 11 01 00 00 00 00 00 00 45 51 11 07
+--DATA PAYLOAD--
+ C  v  .  .  .  .  .  .  .  .  .  .     F  H  E 
+ P  F 
+
+*******************************************************
+
+		--PACKET INFO--
+
+Packet	# 622
+Packet size	: 60 bytes
+Epoch Time	: 1096984894:244450 seconds | Tue Oct  5 19:31:34 2004
+
+		--ETHERNET HEADER INFO--
+
+Source MAC Address	: 00:07:0D:AF:F4:54:
+Destination MAC Address	: FF:FF:FF:FF:FF:FF:  (Broadcast)
+Frame Type		: ARP
+
+		--ARP HEADER INFO--
+
+Hardware type				: Ethernet (0001)
+Protocol type				: IPv4 (0800)
+Link Layer Hardware Address Length	: 6 Bytes
+Network Protocol Address Length		: 4 Bytes
+Operation				: ARP Request
+Sender Hardware Address			: 00:07:0D:AF:F4:54:
+Target Hardware Address			: 00:00:00:00:00:00:
+Sender Network Protocol Address		: 69.76.216.1.
+Target Network Protocol Address		: 69.76.222.15.
+
+		--DUMP--
+
+--ARP HEADER--
+ 00 01 08 00 06 04 00 01 00 07 0d af f4 54 45 4c
+ d8 01 00 00 00 00 00 00 45 4c de 0f
+--DATA PAYLOAD--
+ .  .  .  .  .  .  .  .  .  .  .  .     F  H  F 
+ A  E 
+
+
+*******************************************************
+
